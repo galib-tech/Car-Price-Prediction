@@ -22,28 +22,21 @@ pipe = pickle.load(open("pipe.pkl", "rb"))
 # Company Dorpdown
 
 company = st.selectbox(
-    "Select Company",
+    "Company",
     sorted(car["company"].unique())
-)
-
-# Car name dropdown
-
-name = st.selectbox(
-    "Select Name",
-    sorted(car["name"].unique())
 )
 
 # Year dropdown
 
 year = st.selectbox(
-    "Select Year",
+    "Year",
     sorted(car["year"].unique(), reverse= True)
 )
 
 # Fuel Type
 
 fuel_type = st.selectbox(
-    "Select Fuel Type",
+    "Fuel Type",
     sorted(car["fuel_type"].unique())
 )
 
