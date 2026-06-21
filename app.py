@@ -28,10 +28,10 @@ company = st.selectbox(
 
 # Car name dropdown
 
-name = st.selectbox(
-    "Select Name",
-    sorted(car["name"].unique())
-)
+# name = st.selectbox(
+#    "Select Name",
+ #   sorted(car["name"].unique())
+#)
 
 # Year dropdown
 
